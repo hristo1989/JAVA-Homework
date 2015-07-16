@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Zadacha_3 {
+    public static void main(String[] arguments) {
+    	
+    	Scanner input = new Scanner(System.in,"UTF-8");
+    	
+        System.out.println("Enter First name:");
+        String firstname = input.nextLine();
+        
+        System.out.println("Enter Last name:");
+        String lasttname = input.nextLine();
+        
+        System.out.println("Enter age:");
+        byte age = input.nextByte();
+        
+        System.out.println("Enter sex: M - Male; F - Female:");
+        char sex = input.next().charAt(0);
+        
+        System.out.println("Enter ID number:");
+        long ID = input.nextLong();
+        
+        System.out.println("Enter Bulgarian Mobile Number (starting with 0 not +359):");
+        int BMN = input.nextInt();
+        
+        System.out.println("First name:": firstname);
+       
+        input.close();
+    }
+}

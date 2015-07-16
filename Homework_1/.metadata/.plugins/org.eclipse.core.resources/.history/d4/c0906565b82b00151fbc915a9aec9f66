@@ -1,0 +1,17 @@
+class Zadacha_1 {
+    public static void main(String[] arguments) {
+    	Scanner input = new Scanner(System.in,"UTF-8");
+    	
+        System.out.println("Enter Lenght:");
+        double Lenght = input.nextDouble();
+        
+        System.out.println("Enter Width");
+        double Width = input.nextDouble();
+        
+        double Face = Lenght*Width;
+        System.out.println("The face of rectangle is: ");
+        System.out.println(Face);
+        
+        input.close();
+    }
+}

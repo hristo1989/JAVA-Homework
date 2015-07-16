@@ -1,0 +1,19 @@
+
+public class Zadacha_2 {
+	public static void main(String[] args) {
+		  
+		  int X = 5;
+		  System.out.println(X);
+		  
+		  int Y = X;
+		  System.out.println(Y);
+		  
+		  X = 8;
+		  System.out.println(X);
+		  System.out.println(Y);
+		  
+		}
+			  
+ }
+			 
+		  
