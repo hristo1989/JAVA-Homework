@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Zadacha_8 {
+
+	public static void main(String[] arg) {
+
+		Scanner test = new Scanner(System.in, "UTF-8");
+
+		System.out.println("Enter three numbers to solve quadratic equation: ax2 + bx + c = 0");
+		double a = test.nextInt();
+		double b = test.nextInt();
+		double c = test.nextInt();
+		double B = b * b - 4 * a * c;
+		double B1= Math.sqrt(B);
+		double x = 4;
+		double x1 = (-b + B1 )/ (2 * c);
+		double x2 = (-b - B1 )/ (2 * c);
+		System.out.println("Math.sqrt(" + x + ")=" + Math.sqrt(x));
+	System.out.println(x1);
+	test.close();
+	
+	}
+	
+}

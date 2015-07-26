@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Zadacha_4 {
+
+	public static void main(String[] arg) {
+
+		Scanner test = new Scanner(System.in, "UTF-8");
+
+		System.out.println("Enter two numbers to calculate N!/K! equation: ");
+		int N = test.nextInt();
+		int K = test.nextInt();
+		int N_fact = 1;
+		int K_fact = 1;
+		for (int i = 1; i == N; i++) {
+			N_fact = i * N_fact;
+		}
+		System.out.println(N);
+		test.close();
+	}
+}

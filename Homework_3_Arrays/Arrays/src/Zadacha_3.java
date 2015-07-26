@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Zadacha_3 {
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in, "UTF-8");
+		System.out.println("Enter the lenght of the array: ");
+		int[] array = new int[10];
+		for (int i = 0; i < 10; i++) {
+			array[i] = i *10;
+		}
+		for (int i = 0; i < 10; i++) {
+			System.out.println("array[" + i + "] = " + array[i]);
+		}
+		input.close();
+	}
+}

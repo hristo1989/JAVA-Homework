@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Zadacha_3 {
+
+	public static void main(String[] arg) {
+
+		Scanner test = new Scanner(System.in, "UTF-8");
+
+		System.out.println("Enter three numbers, the program will show you the highest one: ");
+		int one = test.nextInt();
+		int two = test.nextInt();
+		int three = test.nextInt();
+		
+		if (one > two && one > three) {
+			System.out.println(+one + " is the highest number");
+		} else if (two > one && two > three) {
+			System.out.println(+two + " is the highest number");
+		} else {
+
+			System.out.println(+three + " is the highest number");
+		}
+		test.close();
+	}
+}

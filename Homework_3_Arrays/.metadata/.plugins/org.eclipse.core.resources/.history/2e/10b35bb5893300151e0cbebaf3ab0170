@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class Zadacha_5 {
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in, "UTF-8");
+		System.out.println("Enter lenght of the array: ");
+		int n = input.nextInt();
+		int[] array = new int[n];
+		System.out.println("Enter numbers from the array");
+		for (int i = 0; i < n; i++) {
+			array[i] = input.nextInt();
+		}
+		for (int i = 0; i < array.length - 1; i++) {
+			int index = i;
+			for (int j = i + 1; j < array.length; j++)
+				if (array[j] < array[index])
+					index = j;
+
+			int smallerNumber = array[index];
+			array[index] = array[i];
+			array[i] = smallerNumber;
+			
+		}
+		for (int i:array) {
+			
+		}
+		System.out.println(i);
+		input.close();
+	}
+}

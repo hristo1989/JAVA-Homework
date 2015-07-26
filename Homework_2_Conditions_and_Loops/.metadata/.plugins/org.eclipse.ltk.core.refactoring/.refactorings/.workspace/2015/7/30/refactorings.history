@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;Conditions_and_Loops&apos; to &apos;Conditions&apos;&#x0D;&#x0A;- Original element: &apos;Conditions_and_Loops&apos;&#x0D;&#x0A;- Renamed element: &apos;Conditions_and_Loops&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;Conditions_and_Loops&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=Conditions_and_Loops" name="Conditions" references="true" stamp="1437628655035" version="1.0"/>
+</session>

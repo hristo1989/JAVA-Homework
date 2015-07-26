@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Zadacha_3 {
+
+	public static void main(String[] arg) {
+
+		Scanner test = new Scanner(System.in, "UTF-8");
+
+		System.out.println("Enter five numbers: ");
+		int Max = Integer.MIN_VALUE;
+		int Min = Integer.MAX_VALUE;
+		for (int x = 1; x < 6; x++) {
+			int number = test.nextInt();
+			if (number > Max) {
+				Max = number;
+			} else if (number < Min) {
+				Min = number;
+
+			}
+			System.out.println("The highest number is " + Max + " and the lowest number is " + Min);
+			test.close();
+		}
+
+	}
+
+}

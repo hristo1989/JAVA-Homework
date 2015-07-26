@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Zadacha_1 {
+
+	public static void main(String[] arg) {
+
+		Scanner test = new Scanner(System.in, "UTF-8");
+
+		System.out.println("Enter a number.");
+		int num = test.nextInt();
+
+		for (int number = 1; number == num; number++) {
+			System.out.println(number + " ");
+		}
+		test.close();
+	}
+}

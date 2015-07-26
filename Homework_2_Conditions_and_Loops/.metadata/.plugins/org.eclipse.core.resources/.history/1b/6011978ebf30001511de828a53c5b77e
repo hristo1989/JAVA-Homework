@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Zadacha_5 {
+
+	public static void main(String[] arg) {
+
+		Scanner test = new Scanner(System.in, "UTF-8");
+
+		System.out.println("Enter the length of the three sides to verify whether they can build a triangle: ");
+		int a = test.nextInt();
+		int b = test.nextInt();
+		int c = test.nextInt();
+
+		if (a < b + c && b < a + c && c < a + b) {
+			System.out.println("You can build a triangle with this three sides, " + a + ", " + b + "and " + c + "");
+		} else if (a > b + c) {
+			System.out.println("Sorry, said " + a + " is too large.");
+		} else if (b > a + c) {
+			System.out.println("Sorry, said " + b + " is too large.");
+		} else
+			System.out.println("Sorry, said " + c + " is too large.");
+		test.close();
+	}
+}

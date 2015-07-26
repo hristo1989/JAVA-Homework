@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Zadacha_1 {
+
+	public static void main(String[] arg) {
+
+		Scanner test = new Scanner(System.in, "UTF-8");
+
+		System.out.println("Enter a number.");
+		int num = test.nextInt();
+
+		for (int x = 0; x == num; x = x + 1) {
+			System.out.print("value of x : " + x);
+			System.out.print("\n");
+		}
+		test.close();
+	}
+}
